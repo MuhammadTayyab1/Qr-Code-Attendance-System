@@ -1,0 +1,3 @@
+﻿1>------ Build started: Project: Qr Attendence System, Configuration: Debug Any CPU ------
+1>  Qr Attendence System -> C:\Users\Tayyab\Desktop\Qr Attendence System\Qr Attendence System\bin\Debug\Qr Attendence System.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
