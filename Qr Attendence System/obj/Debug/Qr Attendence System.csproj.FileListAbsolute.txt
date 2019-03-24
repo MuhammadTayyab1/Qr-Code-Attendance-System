@@ -1,0 +1,25 @@
+c:\users\tayyab\documents\visual studio 2013\Projects\Qr Attendence System\Qr Attendence System\bin\Debug\Qr Attendence System.exe.config
+c:\users\tayyab\documents\visual studio 2013\Projects\Qr Attendence System\Qr Attendence System\bin\Debug\Qr Attendence System.exe
+c:\users\tayyab\documents\visual studio 2013\Projects\Qr Attendence System\Qr Attendence System\bin\Debug\Qr Attendence System.pdb
+c:\users\tayyab\documents\visual studio 2013\Projects\Qr Attendence System\Qr Attendence System\obj\Debug\Qr Attendence System.csprojResolveAssemblyReference.cache
+c:\users\tayyab\documents\visual studio 2013\Projects\Qr Attendence System\Qr Attendence System\obj\Debug\Qr_Attendence_System.Form1.resources
+c:\users\tayyab\documents\visual studio 2013\Projects\Qr Attendence System\Qr Attendence System\obj\Debug\Qr_Attendence_System.Form2.resources
+c:\users\tayyab\documents\visual studio 2013\Projects\Qr Attendence System\Qr Attendence System\obj\Debug\Qr_Attendence_System.Form3.resources
+c:\users\tayyab\documents\visual studio 2013\Projects\Qr Attendence System\Qr Attendence System\obj\Debug\Qr_Attendence_System.Properties.Resources.resources
+c:\users\tayyab\documents\visual studio 2013\Projects\Qr Attendence System\Qr Attendence System\obj\Debug\Qr Attendence System.csproj.GenerateResource.Cache
+c:\users\tayyab\documents\visual studio 2013\Projects\Qr Attendence System\Qr Attendence System\obj\Debug\Qr Attendence System.exe
+c:\users\tayyab\documents\visual studio 2013\Projects\Qr Attendence System\Qr Attendence System\obj\Debug\Qr Attendence System.pdb
+c:\users\tayyab\documents\visual studio 2013\Projects\Qr Attendence System\Qr Attendence System\bin\Debug\Zen.Barcode.Core.dll
+C:\Users\Tayyab\Desktop\Qr Attendence System\Qr Attendence System\bin\Debug\Qr Attendence System.exe.config
+C:\Users\Tayyab\Desktop\Qr Attendence System\Qr Attendence System\obj\Debug\Qr Attendence System.exe
+C:\Users\Tayyab\Desktop\Qr Attendence System\Qr Attendence System\obj\Debug\Qr Attendence System.pdb
+C:\Users\Tayyab\Desktop\Qr Attendence System\Qr Attendence System\bin\Debug\Qr Attendence System.exe
+C:\Users\Tayyab\Desktop\Qr Attendence System\Qr Attendence System\bin\Debug\Qr Attendence System.pdb
+C:\Users\Tayyab\Desktop\Qr Attendence System\Qr Attendence System\bin\Debug\Zen.Barcode.Core.dll
+C:\Users\Tayyab\Desktop\Qr Attendence System\Qr Attendence System\obj\Debug\Qr Attendence System.csprojResolveAssemblyReference.cache
+C:\Users\Tayyab\Desktop\Qr Attendence System\Qr Attendence System\obj\Debug\Qr_Attendence_System.Form1.resources
+C:\Users\Tayyab\Desktop\Qr Attendence System\Qr Attendence System\obj\Debug\Qr_Attendence_System.Form2.resources
+C:\Users\Tayyab\Desktop\Qr Attendence System\Qr Attendence System\obj\Debug\Qr_Attendence_System.Form3.resources
+C:\Users\Tayyab\Desktop\Qr Attendence System\Qr Attendence System\obj\Debug\Qr_Attendence_System.Properties.Resources.resources
+C:\Users\Tayyab\Desktop\Qr Attendence System\Qr Attendence System\obj\Debug\Qr Attendence System.csproj.GenerateResource.Cache
+C:\Users\Tayyab\Desktop\Qr Attendence System\Qr Attendence System\bin\Debug\Newtonsoft.Json.dll
