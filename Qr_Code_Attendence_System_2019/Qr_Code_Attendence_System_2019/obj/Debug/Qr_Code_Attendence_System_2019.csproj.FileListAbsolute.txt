@@ -1,0 +1,17 @@
+C:\Users\Tayyab\documents\visual studio 2013\Projects\Qr_Code_Attendence_System_2019\Qr_Code_Attendence_System_2019\bin\Debug\Qr_Code_Attendence_System_2019.exe.config
+C:\Users\Tayyab\documents\visual studio 2013\Projects\Qr_Code_Attendence_System_2019\Qr_Code_Attendence_System_2019\bin\Debug\Qr_Code_Attendence_System_2019.exe
+C:\Users\Tayyab\documents\visual studio 2013\Projects\Qr_Code_Attendence_System_2019\Qr_Code_Attendence_System_2019\bin\Debug\Qr_Code_Attendence_System_2019.pdb
+C:\Users\Tayyab\documents\visual studio 2013\Projects\Qr_Code_Attendence_System_2019\Qr_Code_Attendence_System_2019\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Tayyab\documents\visual studio 2013\Projects\Qr_Code_Attendence_System_2019\Qr_Code_Attendence_System_2019\bin\Debug\Zen.Barcode.Core.dll
+C:\Users\Tayyab\documents\visual studio 2013\Projects\Qr_Code_Attendence_System_2019\Qr_Code_Attendence_System_2019\obj\Debug\Qr_Code_Attendence_System_2019.facultypannel.resources
+C:\Users\Tayyab\documents\visual studio 2013\Projects\Qr_Code_Attendence_System_2019\Qr_Code_Attendence_System_2019\obj\Debug\Qr_Code_Attendence_System_2019.home.resources
+C:\Users\Tayyab\documents\visual studio 2013\Projects\Qr_Code_Attendence_System_2019\Qr_Code_Attendence_System_2019\obj\Debug\Qr_Code_Attendence_System_2019.Properties.Resources.resources
+C:\Users\Tayyab\documents\visual studio 2013\Projects\Qr_Code_Attendence_System_2019\Qr_Code_Attendence_System_2019\obj\Debug\Qr_Code_Attendence_System_2019.qr.resources
+C:\Users\Tayyab\documents\visual studio 2013\Projects\Qr_Code_Attendence_System_2019\Qr_Code_Attendence_System_2019\obj\Debug\Qr_Code_Attendence_System_2019.view.resources
+C:\Users\Tayyab\documents\visual studio 2013\Projects\Qr_Code_Attendence_System_2019\Qr_Code_Attendence_System_2019\obj\Debug\Qr_Code_Attendence_System_2019.csproj.GenerateResource.Cache
+C:\Users\Tayyab\documents\visual studio 2013\Projects\Qr_Code_Attendence_System_2019\Qr_Code_Attendence_System_2019\obj\Debug\Qr_Code_Attendence_System_2019.exe
+C:\Users\Tayyab\documents\visual studio 2013\Projects\Qr_Code_Attendence_System_2019\Qr_Code_Attendence_System_2019\obj\Debug\Qr_Code_Attendence_System_2019.pdb
+C:\Users\Tayyab\documents\visual studio 2013\Projects\Qr_Code_Attendence_System_2019\Qr_Code_Attendence_System_2019\obj\Debug\Qr_Code_Attendence_System_2019.login.resources
+C:\Users\Tayyab\documents\visual studio 2013\Projects\Qr_Code_Attendence_System_2019\Qr_Code_Attendence_System_2019\obj\Debug\Qr_Code_Attendence_System_2019.csprojResolveAssemblyReference.cache
+C:\Users\Tayyab\documents\visual studio 2013\Projects\Qr_Code_Attendence_System_2019\Qr_Code_Attendence_System_2019\obj\Debug\Qr_Code_Attendence_System_2019.about.resources
+C:\Users\Tayyab\documents\visual studio 2013\Projects\Qr_Code_Attendence_System_2019\Qr_Code_Attendence_System_2019\obj\Debug\Qr_Code_Attendence_System_2019.terms.resources
