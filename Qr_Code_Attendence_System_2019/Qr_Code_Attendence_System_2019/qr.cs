@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -37,62 +37,77 @@ namespace Qr_Code_Attendence_System_2019
         }
         private void button1_Click(object sender, EventArgs e)
         {
-
-            string save = "";
-            if (textBox1.Text == "")
+            if (textBox2.Text.Length > 8)
             {
-                label5.Text = "First generate unique pin";
+                MessageBox.Show("Class id must be less then 9 digits");
             }
             else
             {
-                if (textBox2.Text == "")
+                if (textBox3.Text.Length > 68)
                 {
-                    label6.Text = "Enter course id";
+                    MessageBox.Show("comment must be less then 68 characters \n your recent comment length is "+textBox3.Text.Length);
                 }
                 else
                 {
-                    label6.Text = "";
-                    save += "Unique pin : " + textBox1.Text + "\n";
-                    save += "Course Id  : " + textBox2.Text + "\n";
-                    using (var wb = new WebClient())
-                    {
-                        var data = new NameValueCollection();
-                        data["username"] = "ali";
-                        data["password"] = "1234";
 
-                        try
+                    string save = "";
+                    if (textBox1.Text == "")
+                    {
+                        label5.Text = "First generate unique pin";
+                    }
+                    else
+                    {
+                        if (textBox2.Text == "")
                         {
-                            var response = wb.UploadValues("https://jsonplaceholder.typicode.com/posts", "POST", data);
-                            string responseInString = Encoding.UTF8.GetString(response);
-                            Console.WriteLine(responseInString);
-
-                            Dictionary<string, object> list = JsonConvert.DeserializeObject<Dictionary<string, object>>(responseInString.ToString());
-
-                            string[] keys = list.Keys.ToArray();
-
-                            save += "Post id  : " + list[keys[2]].ToString() + "\n";
+                            label6.Text = "Enter course id";
                         }
-                        catch (Exception ex)
+                        else
                         {
-                            MessageBox.Show("Your internet is not working \n PleaseCheck your connection \n and try again \n\n"+ex.Message);
-                        }
-                    }
-                    if (textBox3.Text != "")
-                    {
-                        save += "Comment  : " + textBox3.Text + "\n";
-                    }
+                            label6.Text = "";
+                            save += "Unique pin : " + textBox1.Text + "\n";
+                            save += "Course Id  : " + textBox2.Text + "\n";
+                            using (var wb = new WebClient())
+                            {
+                                var data = new NameValueCollection();
+                                data["username"] = "ali";
+                                data["password"] = "1234";
 
-                    try
-                    {
-                        Zen.Barcode.CodeQrBarcodeDraw qrcode = Zen.Barcode.BarcodeDrawFactory.CodeQr;
-                        pictureBox1.Image = qrcode.Draw(save, 50);
-                    }
-                    catch
-                    {
-                        MessageBox.Show("Please not enter more then 15 words in comment/class id");
+                                try
+                                {
+                                    var response = wb.UploadValues("https://jsonplaceholder.typicode.com/posts", "POST", data);
+                                    string responseInString = Encoding.UTF8.GetString(response);
+                                    Console.WriteLine(responseInString);
+
+                                    Dictionary<string, object> list = JsonConvert.DeserializeObject<Dictionary<string, object>>(responseInString.ToString());
+
+                                    string[] keys = list.Keys.ToArray();
+
+                                    save += "Post id  : " + list[keys[2]].ToString() + "\n";
+                                }
+                                catch (Exception ex)
+                                {
+                                    MessageBox.Show("Your internet is not working \n PleaseCheck your connection \n and try again \n\n" + ex.Message);
+                                }
+                            }
+                            if (textBox3.Text != "")
+                            {
+                                save += "Comment  : " + textBox3.Text + "\n";
+                            }
+
+                            try
+                            {
+                                Zen.Barcode.CodeQrBarcodeDraw qrcode = Zen.Barcode.BarcodeDrawFactory.CodeQr;
+                                pictureBox1.Image = qrcode.Draw(save, 50);
+                            }
+                            catch(Exception ex)
+                            {
+                                MessageBox.Show(ex.Message);
+                            }
+                        }
                     }
                 }
             }
+
         }
 
         private void button2_Click(object sender, EventArgs e)
