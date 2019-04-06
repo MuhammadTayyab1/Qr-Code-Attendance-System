@@ -59,7 +59,7 @@ namespace Qr_Code_Attendence_System_2019
                     {
                         if (textBox2.Text == "")
                         {
-                            label6.Text = "Enter course id";
+                            label6.Text = "Please enter course id";
                         }
                         else
                         {
