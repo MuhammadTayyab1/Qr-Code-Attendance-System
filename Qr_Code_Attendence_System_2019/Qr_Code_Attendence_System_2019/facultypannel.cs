@@ -49,5 +49,29 @@ namespace Qr_Code_Attendence_System_2019
             login fs = new login();
             fs.Show();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            register r = new register();
+            r.Show();
+        }
+
+        private void facultypannel_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            qrhistory qh = new qrhistory();
+            qh.Show();
+        }
+
+        private void facultypannel_Load(object sender, EventArgs e)
+        {
+            this.MaximizeBox = false;
+        }
     }
 }

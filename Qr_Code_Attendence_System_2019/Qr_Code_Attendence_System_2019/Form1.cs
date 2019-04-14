@@ -24,6 +24,11 @@ namespace Qr_Code_Attendence_System_2019
             f2.Show();
         }
 
+        private static void close()
+        {
+            throw new NotImplementedException();
+        }
+
         private void button4_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -46,6 +51,16 @@ namespace Qr_Code_Attendence_System_2019
             this.Hide();
             about t = new about();
             t.Show();
+        }
+
+        private void home_Load(object sender, EventArgs e)
+        {
+            this.MaximizeBox = false;
+        }
+
+        private void home_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

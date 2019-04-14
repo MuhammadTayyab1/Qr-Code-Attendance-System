@@ -80,6 +80,16 @@ namespace Qr_Code_Attendence_System_2019
             }
         }
 
+        private void login_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void login_Load(object sender, EventArgs e)
+        {
+            this.MaximizeBox = false;
+        }
+
     }
 
     class logininfo

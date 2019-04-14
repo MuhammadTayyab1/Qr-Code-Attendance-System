@@ -84,6 +84,18 @@
     <Compile Include="qr.Designer.cs">
       <DependentUpon>qr.cs</DependentUpon>
     </Compile>
+    <Compile Include="qrhistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="qrhistory.Designer.cs">
+      <DependentUpon>qrhistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="register.Designer.cs">
+      <DependentUpon>register.cs</DependentUpon>
+    </Compile>
     <Compile Include="terms.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,6 +132,12 @@
     </Compile>
     <EmbeddedResource Include="qr.resx">
       <DependentUpon>qr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="qrhistory.resx">
+      <DependentUpon>qrhistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="register.resx">
+      <DependentUpon>register.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="terms.resx">
       <DependentUpon>terms.cs</DependentUpon>
@@ -161,6 +179,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\pp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tm9debwp5f301.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

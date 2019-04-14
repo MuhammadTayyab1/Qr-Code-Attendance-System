@@ -104,6 +104,8 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "home";
             this.Text = "Qr Code Attendence System";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.home_FormClosing);
+            this.Load += new System.EventHandler(this.home_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

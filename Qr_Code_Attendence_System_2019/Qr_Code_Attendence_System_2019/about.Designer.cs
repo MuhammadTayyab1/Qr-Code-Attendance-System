@@ -222,6 +222,7 @@
             this.Controls.Add(this.button1);
             this.Name = "about";
             this.Text = "About Us";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.about_FormClosing);
             this.Load += new System.EventHandler(this.about_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

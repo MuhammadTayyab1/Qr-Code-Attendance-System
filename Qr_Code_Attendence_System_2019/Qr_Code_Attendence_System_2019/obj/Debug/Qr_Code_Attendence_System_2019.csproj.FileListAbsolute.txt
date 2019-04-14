@@ -15,3 +15,5 @@ C:\Users\Tayyab\documents\visual studio 2013\Projects\Qr_Code_Attendence_System_
 C:\Users\Tayyab\documents\visual studio 2013\Projects\Qr_Code_Attendence_System_2019\Qr_Code_Attendence_System_2019\obj\Debug\Qr_Code_Attendence_System_2019.csprojResolveAssemblyReference.cache
 C:\Users\Tayyab\documents\visual studio 2013\Projects\Qr_Code_Attendence_System_2019\Qr_Code_Attendence_System_2019\obj\Debug\Qr_Code_Attendence_System_2019.about.resources
 C:\Users\Tayyab\documents\visual studio 2013\Projects\Qr_Code_Attendence_System_2019\Qr_Code_Attendence_System_2019\obj\Debug\Qr_Code_Attendence_System_2019.terms.resources
+C:\Users\Tayyab\documents\visual studio 2013\Projects\Qr_Code_Attendence_System_2019\Qr_Code_Attendence_System_2019\obj\Debug\Qr_Code_Attendence_System_2019.register.resources
+C:\Users\Tayyab\documents\visual studio 2013\Projects\Qr_Code_Attendence_System_2019\Qr_Code_Attendence_System_2019\obj\Debug\Qr_Code_Attendence_System_2019.qrhistory.resources

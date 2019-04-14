@@ -103,6 +103,16 @@ namespace Qr_Code_Attendence_System_2019.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap download {
+            get {
+                object obj = ResourceManager.GetObject("download", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap freelancer_1080x720 {
             get {
                 object obj = ResourceManager.GetObject("freelancer-1080x720", resourceCulture);
@@ -126,6 +136,16 @@ namespace Qr_Code_Attendence_System_2019.Properties {
         internal static System.Drawing.Bitmap pp__1_ {
             get {
                 object obj = ResourceManager.GetObject("pp (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tm9debwp5f301 {
+            get {
+                object obj = ResourceManager.GetObject("tm9debwp5f301", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -71,6 +71,7 @@
             this.Controls.Add(this.richTextBox1);
             this.Name = "terms";
             this.Text = "terms";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.terms_FormClosing);
             this.Load += new System.EventHandler(this.terms_Load);
             this.ResumeLayout(false);
 

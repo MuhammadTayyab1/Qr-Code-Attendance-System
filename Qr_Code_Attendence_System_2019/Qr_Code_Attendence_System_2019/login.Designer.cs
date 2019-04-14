@@ -152,6 +152,8 @@
             this.Controls.Add(this.button1);
             this.Name = "login";
             this.Text = "Faculty Login";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.login_FormClosing);
+            this.Load += new System.EventHandler(this.login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

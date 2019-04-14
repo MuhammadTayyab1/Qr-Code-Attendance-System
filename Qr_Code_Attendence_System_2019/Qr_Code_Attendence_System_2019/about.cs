@@ -32,7 +32,7 @@ namespace Qr_Code_Attendence_System_2019
 
         private void about_Load(object sender, EventArgs e)
         {
-           
+            this.MaximizeBox = false;
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -43,6 +43,11 @@ namespace Qr_Code_Attendence_System_2019
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Process.Start("https://github.com/NajamShehzad");
+        }
+
+        private void about_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
