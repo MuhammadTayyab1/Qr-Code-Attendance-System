@@ -1,7 +1,7 @@
 # Qr-Code-Attendance-System
 login info
 
-Username = data
+Username = admin
 
 
-password = data
+password = 1234
