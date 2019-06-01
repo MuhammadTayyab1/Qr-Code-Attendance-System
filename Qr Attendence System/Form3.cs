@@ -53,6 +53,7 @@ namespace Qr_Attendence_System
 
                     using (var wb = new WebClient())
                     {
+                       
                         var data = new NameValueCollection();
                         data["username"] = "myUser";
                         data["password"] = "myPassword";
@@ -69,7 +70,7 @@ namespace Qr_Attendence_System
 
                         string[] keys = list.Keys.ToArray();
 
-                        
+                        // Get data from json
                         n = list[keys[0]].ToString();
                         p = list[keys[1]].ToString();
                         d = list[keys[2]].ToString();
