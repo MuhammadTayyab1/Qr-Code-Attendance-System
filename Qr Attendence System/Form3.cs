@@ -23,6 +23,7 @@ namespace Qr_Attendence_System
 
         private void button1_Click(object sender, EventArgs e)
         {
+           // Generate random pin
             Random r = new Random();
             int a = r.Next(10000, 99999);
 
