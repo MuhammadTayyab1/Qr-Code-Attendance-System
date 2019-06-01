@@ -26,6 +26,7 @@ namespace Qr_Attendence_System
 
         private void button2_Click(object sender, EventArgs e)
         {
+           // Close app
             Application.Exit();
         }
     }
