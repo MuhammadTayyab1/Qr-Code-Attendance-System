@@ -38,6 +38,7 @@ namespace Qr_Code_Attendence_System_2019
 
         private void button5_Click(object sender, EventArgs e)
         {
+          // Back
             this.Hide();
             login f2 = new login();
             f2.Show();
