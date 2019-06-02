@@ -25,6 +25,7 @@ namespace Qr_Code_Attendence_System_2019
 
         private void button2_Click(object sender, EventArgs e)
         {
+            // Home page
             this.Hide();
             home f8 = new home();
             f8.Show();
