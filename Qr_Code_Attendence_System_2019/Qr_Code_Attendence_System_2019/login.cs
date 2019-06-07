@@ -32,6 +32,7 @@ namespace Qr_Code_Attendence_System_2019
         private void button1_Click(object sender, EventArgs e)
         {
            // Login checking
+           
             logininfo obj = new logininfo();
             int i = obj.logininfos("" + textBox1.Text + "", "" + textBox2.Text + "");
             if (i == 1)
