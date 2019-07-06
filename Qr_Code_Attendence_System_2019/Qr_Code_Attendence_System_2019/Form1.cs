@@ -29,6 +29,7 @@ namespace Qr_Code_Attendence_System_2019
             throw new NotImplementedException();
         }
 
+
         private void button4_Click(object sender, EventArgs e)
         {
             Application.Exit();
