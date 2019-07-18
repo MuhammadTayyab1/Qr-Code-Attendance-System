@@ -35,6 +35,7 @@ namespace Qr_Code_Attendence_System_2019
         {
             this.MaximizeBox = false;
         }
+        
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
