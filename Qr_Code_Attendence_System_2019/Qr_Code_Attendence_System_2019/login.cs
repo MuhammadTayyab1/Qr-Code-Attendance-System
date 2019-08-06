@@ -23,7 +23,6 @@ namespace Qr_Code_Attendence_System_2019
         {
             InitializeComponent();
          
-            
         }
        
 
