@@ -16,6 +16,7 @@ namespace Qr_Attendence_System
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            // Main form 
             Application.Run(new Form1());
         }
     }
